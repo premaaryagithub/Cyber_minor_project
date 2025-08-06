@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "stripe-access-token",
+  "Description": "Found a Stripe Access Token, posing a risk to payment processing services and sensitive financial data.",
+  "StartLine": 1,
+  "EndLine": 1,
+  "StartColumn": 22,
+  "EndColumn": 49,
+  "Match": "sk_test_FAKEKEYabc123456789\"",
+  "Secret": "sk_test_FAKEKEYabc123456789",
+  "File": "payment_config.py",
+  "SymlinkFile": "",
+  "Commit": "7f9139cb087a0758568caaa41246ec051df90731",
+  "Link": "https://github.com/dummy-vuln-org/leaky-api-demo/blob/7f9139cb087a0758568caaa41246ec051df90731/payment_config.py#L1",
+  "Entropy": 4.384517,
+  "Author": "jagat334",
+  "Email": "kalpanatamadana@gmail.com",
+  "Date": "2025-08-04T12:29:06Z",
+  "Message": "Created payment_config.py",
+  "Tags": [],
+  "Fingerprint": "7f9139cb087a0758568caaa41246ec051df90731:payment_config.py:stripe-access-token:1"
+ }
+]
